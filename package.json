@@ -1,0 +1,19 @@
+{
+  "name": "amazon_scraper_api",
+  "version": "1.0.0",
+  "description": "A simple API to scrap Amazon products,reviews",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Amardeep Ganguly",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
